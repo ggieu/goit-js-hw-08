@@ -29,7 +29,7 @@ if (dataStorage()) {
     data.email = emailEl.value;
     messageEl.value = dataMessageValue();
     data.message = messageEl.value;
-    console.log('...')
+    console.log('')
 }
 
 
@@ -54,6 +54,6 @@ formEl.addEventListener('submit', (event) => {
         formEl.reset();
         data = {};
     } else {
-        alert("it's epmty :(")
+        alert("заповніть усі поля")
     }
 });
